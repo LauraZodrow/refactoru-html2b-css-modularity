@@ -1,0 +1,100 @@
+.horizontally-spaced {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.horizontally-spaced img {
+	padding: 1em;
+}
+
+.horizontally-spaced-alt {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.vertically-spaced{
+	vertical-align: middle;
+}
+
+.horizontal-list li {
+	display: inline;
+	text-decoration: none;
+}
+
+.btn-buy-now {
+	display: inline-block;
+	color: #fff;
+	font-size: 25px;
+	background: #ff9999;
+	padding: 20px 60px;
+	border-radius: 6px;
+}
+
+.btn-main {
+	display:inline-block;
+	color: #fff;
+	background: #ff9999;
+	padding: 10px 45px;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 0;
+}
+
+.btn-ok {
+	display: inline-block;
+	color: #fff;
+	font-size: 11px;
+	background: #ff9999;
+	padding: 5px 5px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.btn-nav {
+	display:inline-block;
+	color: #fff;
+	background: #ff9999;
+	padding: 10px 45px;
+	text-decoration: none;
+	border: 0;
+}
+
+.navigation > li {
+	float: left;
+	list-style: none;
+	border: none;
+}
+
+.navigation > li:first-child {
+	border-radius: 5px 0px 0px 5px;
+	overflow: hidden;
+}
+
+.navigation li:nth-child(5) {
+	border-radius: 0px 5px 5px 0px;
+	overflow: hidden;
+}
+
+/*nav {
+	background: #ff9999;
+	border-radius: 5px;
+	padding:10px;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background: #000;
+}*/

@@ -10,8 +10,8 @@
 
 .horizontally-spaced-alt {
 	display: inline-block;
-	width: 100%;
-	position: relative;
+	float: left;
+	width: 20%;
 }
 
 .vertically-spaced{
@@ -77,24 +77,25 @@
 	overflow: hidden;
 }
 
-/*nav {
-	background: #ff9999;
-	border-radius: 5px;
-	padding:10px;
+.container img {
+	float: left;
+	padding: 5px;
 }
 
-nav li {
-	display: inline;
-	text-decoration: none;
+.container {
+	display: inline-block;
+	width: 100%;
+	padding:5px ;
 }
 
-nav a {
-	text-decoration: none;
-	padding: 20px;
-	color: #fff;
-	border-radius: 5px;
+.comment-stream {
+	clear: left;
+	overflow: hidden;
 }
 
-nav a:hover {
-	background: #000;
-}*/
+.container-alt {
+	float: left;
+}
+
+
+
